@@ -1,0 +1,12 @@
+
+services:
+  nestapp:
+    container_name: nestapp
+    image: nestapp:0.0.1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
