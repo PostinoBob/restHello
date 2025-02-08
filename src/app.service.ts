@@ -10,12 +10,13 @@ export class AppService {
     if (!user) {
       throw new Error('Invalid credentials');
     }
+
     return user;
   }
   
   getHello(): string {
     return `
-      <div style="text-align: center; border: 2px solid black; padding: 10px; margin: 30%;">
+      <div style="text-align: center; border: 2px solid black; padding: 10px; margin: 10%;">
       <h1>Login</h1>
       <form action="/login" method="post">
         <label for="username">Username:</label>

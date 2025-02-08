@@ -15,11 +15,4 @@ describe('AppController', () => {
     appController = app.get<AppController>(AppController);
     appService = app.get<AppService>(AppService);
   });
-/*
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      jest.spyOn(appService, 'getHello').mockImplementation(() => 'Hello World!');
-      expect(appController.getHello()).toBe('Hello World!');
-    });
-  });*/
 });

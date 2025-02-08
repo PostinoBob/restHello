@@ -2,7 +2,7 @@
 services:
   nestapp:
     container_name: nestapp
-    image: nestapp:0.0.1
+    image: nestapp:1.0.2
     build:
       context: .
       dockerfile: Dockerfile

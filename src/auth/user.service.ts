@@ -7,8 +7,13 @@ import * as bcrypt from 'bcryptjs';
 
 @Injectable()
 export class UserService {
-    private readonly logger = new Logger(UserService.name);
-  constructor(@InjectModel(User.name) private userModel: Model<User>) {}
+  private readonly logger = new Logger(UserService.name);
+  constructor(
+    @InjectModel(User.name)
+    private userModel: Model<User>,
+  ) {
+    
+  }
 
   async create(createUserDto: CreateUserDto): Promise<User> {
     this.logger.log(`Creating user ${createUserDto.username}`);
@@ -18,6 +23,7 @@ export class UserService {
       password: hashedPassword,
     });
     this.logger.log(`User ${createdUser.username} created`);
+
     return createdUser.save();
   }
 }

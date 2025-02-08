@@ -4,14 +4,20 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { UserModule } from './auth/user.module';
+import * as dotenv from 'dotenv';
+require('dotenv').config();
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://samuelmazzocato:bXV9GzNq5HcD3f5n@testcluster.xngez.mongodb.net/?retryWrites=true&w=majority&appName=testCluster'),
+    MongooseModule.forRoot(`${process.env.MONGO_ATLAS_URL}`),
     AuthModule,
     UserModule,
   ],
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+
+export class AppModule 
+{
+
+}
