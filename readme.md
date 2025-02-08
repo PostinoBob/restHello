@@ -1,10 +1,11 @@
 Developing a RESTful API with Node.js, Docker Desktop, MongoDB, and Postman.  
 The service prompt the user with a username and a password, which are stored in the database with an email (psw is hashed with the library bcryptjs).  
 Here are some screenshots of the job done; if you wish to ask questions, I’m glad to answer them.
-![app module](https://github.com/user-attachments/assets/4f03fc02-cf66-443b-b583-8dbdba8e655a)
-![docker info](https://github.com/user-attachments/assets/56a40cfe-2798-46d3-9bab-4906571d82d5)
-![docker image](https://github.com/user-attachments/assets/b47860dd-5d6c-447a-bda5-e187073477fa)
-![mongodb](https://github.com/user-attachments/assets/9424d2a1-76b0-4be1-a674-aebc553b77f8)
-![postman screen](https://github.com/user-attachments/assets/a6f5dc77-d60c-4ac2-8e78-568d147b6644)
-![login](https://github.com/user-attachments/assets/2c3ea257-7042-464e-9456-0e054fd0435c)
-![login2](https://github.com/user-attachments/assets/15a2b091-5af2-4e4b-8ec6-6fe23d16458b)
+
+![app module](https://github.com/user-attachments/assets/6717f706-ed47-4d3c-a4d4-1ef322bf66b0)
+![docker info](https://github.com/user-attachments/assets/02a4d4c2-4645-40b7-806b-cbd8c291f66d)
+![docker image](https://github.com/user-attachments/assets/219cd3f3-7db9-4cf7-823d-0ea7840af9e8)
+![mongodb](https://github.com/user-attachments/assets/d8f769c3-3f61-4905-aa78-859568ffb40a)
+![postman screen](https://github.com/user-attachments/assets/ec06d4de-d226-4fae-912f-a65c7e1e6231)
+![login](https://github.com/user-attachments/assets/65e71fa1-0ded-4e5d-8de8-54f74ec0f5bf)
+![login2](https://github.com/user-attachments/assets/aedb5890-82a8-43fc-a6ec-ff91d8013f3c)
